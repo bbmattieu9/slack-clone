@@ -44,6 +44,8 @@ function Sidebar() {
       <SidebarOption Icon={AddIcon} title='Add channel' />
 
     </div>
+
+    // dbConnection herenpm i 
   );
 }
 
