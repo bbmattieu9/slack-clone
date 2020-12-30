@@ -42,7 +42,7 @@ function Sidebar() {
         <CreateIcon />
       </div>
       <SidebarOption Icon={InsertCommentIcon} title='Threads' />
-      {/* <SidebarOption title='Youtube' /> */}
+      
       <SidebarOption Icon={InboxIcon} title='Mentions & reactions' />
       <SidebarOption Icon={DraftsIcon} title='Saved items' />
       <SidebarOption Icon={BookmarkBorderIcon} title='Channel browser' />
