@@ -16,6 +16,7 @@ function SidebarOption({ Icon, title, id, addChannelOption }) {
         }
 
         const addChannel = () => {
+            
             const channelName = prompt('Please enter channel name');
 
             if (channelName) {
