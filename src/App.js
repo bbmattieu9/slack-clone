@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import './App.css';
 import Header from './Header'
 import Sidebar from './Sidebar'
@@ -10,10 +11,17 @@ import {
 
 
 function App() {
+
+  const [user, setUser] = useState('tizi');
   return (
     
     <div className="App">
       <Router>
+        { !user ? (
+          <h1>Login Page</h1>
+        ) : (
+
+        <>
       <Header />
       <div className="app__body">
       <Sidebar />
@@ -31,6 +39,8 @@ function App() {
 
 
       </div>
+      </>
+      )}
       </Router>
     </div>
   );
