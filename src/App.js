@@ -8,17 +8,18 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Login from './Login';
 
 
 function App() {
 
-  const [user, setUser] = useState('tizi');
+  const [user, setUser] = useState('');
   return (
     
     <div className="App">
       <Router>
         { !user ? (
-          <h1>Login Page</h1>
+          <Login />
         ) : (
 
         <>
